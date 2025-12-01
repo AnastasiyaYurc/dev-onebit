@@ -1,15 +1,49 @@
 body {
     font-family: "Geometria";
-    background-color: $bg-color; 
-    color: $color; 
+    background-color: $bg-color;
+    color: $color;
 }
 
 .fw-400 {
     font-weight: 400;
 }
+
 .fw-500 {
     font-weight: 500;
 }
+
 .fw-700 {
     font-weight: 700;
+}
+
+.btn-login {
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 0;
+    color: #F7FFEE;
+    padding: 10px 22px;
+
+    &:hover {
+        background-color: transparent;
+        border-color: #4F4F4F;
+    }
+}
+
+.btn-primary {
+    font-size: 15px;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 0;
+    color: #F7FFEE;
+    padding: 10px 22px;
+
+    &:hover {
+        background-color: transparent;
+        border-color: #4F4F4F;
+    }
+}
+
+.form-label {
+    color: #080807;
 }
